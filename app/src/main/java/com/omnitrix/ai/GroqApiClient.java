@@ -16,9 +16,8 @@ import okhttp3.Response;
 
 public class GroqApiClient {
 
-    private static final String API_KEY = "";
-    private static final String API_URL =
-            "";
+
+
     private static final String MODEL = "llama-3.3-70b-versatile";
 
     private final OkHttpClient client = new OkHttpClient();
